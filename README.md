@@ -7,7 +7,7 @@ EfficientNet-B4 (pretrained)
 
 ## Data
 High quality birds dataset from kaggle: https://www.kaggle.com/datasets/gpiosenka/100-bird-species/data
-* 525 bird species -> reduced to 184
+* 525 bird species -> reduced to 184 (Only bird names starting with A,B or C) 
 * 84635 training img -> reduced to 29274
   * Each species has at least 130 training imgs
   * ~80% Male and 20% female, this is a shortcoming in the dataset   
@@ -23,9 +23,9 @@ Plan is to make a nice well explained Jupyter Notebook that can be presented liv
 
 <b>Note:</b> Again, this is a learning project. Never coded PyTorch myself before this. </br>
 Materials I've used so far:
-* https://pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html
-* https://www.kaggle.com/code/ibrohimsharipov/birds-classification-pytorch-96-accuracy
-* https://www.kaggle.com/code/harpdeci/classifying-birds-with-resnet (this one pretty advanced)
+* https://pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html (Low complexity)
+* https://www.kaggle.com/code/ibrohimsharipov/birds-classification-pytorch-96-accuracy (Easy to follow)
+* https://www.kaggle.com/code/harpdeci/classifying-birds-with-resnet (This one pretty advanced)
 * ChatGPT4 (no copypasta code, just further explain some concepts for me)
 * Google search
 
